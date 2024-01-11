@@ -16,7 +16,7 @@ function App() {
       {/* <Header/> */}
       <Routes>
         {/* <Route exact path="/" element={<Welcome />} /> */}
-        <Route exact path="/:id" element={<Step/>} />
+        <Route exact path="/" element={<Step/>} />
         <Route path="/appConfirmed" element={<AppointmentConfirmed/>} />
         <Route path="/reschduleApp/:id" element={<RescheduleApp/>} />
         <Route  path="/rescheduleAppointmentConfirmed" element={<RescheduleApproved/>} /> 
